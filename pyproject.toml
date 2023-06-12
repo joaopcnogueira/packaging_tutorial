@@ -30,5 +30,8 @@ dev = [
     'build',
 ]
 
+[project.scripts]
+example_cli_command = "example_package_joaopcnogueira.__main__:main"
+
 [project.urls]
 "Homepage" = "https://github.com/joaopcnogueira/packaging_tutorial"

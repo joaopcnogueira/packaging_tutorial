@@ -39,6 +39,11 @@ from example_package_joaopcnogueira import example
 example.add_one(10)
 ```
 
+for the CLI interface, just go:
+```bash
+$ python -m example_package_joaopcnogueira --add-two 20
+```
+
 # Package Structure
 
 > `example_package_joaopcnogueira/`
