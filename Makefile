@@ -3,6 +3,7 @@ pypi: build upload
 build:
 	@echo "Building package..."
 	@pip install --upgrade build twine
+	@rm -rf dist
 	@python -m build
 
 upload:

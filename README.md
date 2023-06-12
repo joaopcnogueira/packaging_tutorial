@@ -62,10 +62,10 @@ example.add_one(10)
 > `Makefile`
 - A configuration file which handles command line utilities on how to install, build and upload the project to PyPI.
 
-> `notebooks`
+> `notebooks/`
 - Folder where notebooks files exists.
 
-> `tests`
+> `tests/`
 - Folder where the tests code exists.
 
 
